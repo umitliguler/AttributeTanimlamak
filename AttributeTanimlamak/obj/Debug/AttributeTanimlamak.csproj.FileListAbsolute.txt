@@ -1,0 +1,6 @@
+C:\Users\emre\Documents\Vidobu Eğitim\Ileri Seviye C# Egitim Seti\0 Ornek Dosyalar\AttributeTanimlamak\AttributeTanimlamak\bin\Debug\AttributeTanimlamak.exe.config
+C:\Users\emre\Documents\Vidobu Eğitim\Ileri Seviye C# Egitim Seti\0 Ornek Dosyalar\AttributeTanimlamak\AttributeTanimlamak\bin\Debug\AttributeTanimlamak.exe
+C:\Users\emre\Documents\Vidobu Eğitim\Ileri Seviye C# Egitim Seti\0 Ornek Dosyalar\AttributeTanimlamak\AttributeTanimlamak\bin\Debug\AttributeTanimlamak.pdb
+C:\Users\emre\Documents\Vidobu Eğitim\Ileri Seviye C# Egitim Seti\0 Ornek Dosyalar\AttributeTanimlamak\AttributeTanimlamak\obj\Debug\AttributeTanimlamak.exe
+C:\Users\emre\Documents\Vidobu Eğitim\Ileri Seviye C# Egitim Seti\0 Ornek Dosyalar\AttributeTanimlamak\AttributeTanimlamak\obj\Debug\AttributeTanimlamak.pdb
+C:\Users\emre\Documents\Vidobu Eğitim\Ileri Seviye C# Egitim Seti\0 Ornek Dosyalar\AttributeTanimlamak\AttributeTanimlamak\obj\Debug\AttributeTanimlamak.csprojResolveAssemblyReference.cache
