@@ -52,14 +52,18 @@ namespace AttributeUygulamasi
 **TestClass metodu için yazılan MethodTest metodunun koda eklenmesi TEST' in tanımlanmış olması koşuluna bağlıdır. Eğer TEST tanımlanır ise "deneme.MethodTest()" kodu çalışarak diğer koşullar atlanacaktır.**
 
 **"TEST" tanımlanmadığında programın yarattığı çıktı aşağıdadır:** 
+
 A metodu çağrıldı
+
 B metodu çağrıldı
 
 
 **"TEST" tanımlandığında programın yarattığı çıktı aşağıdadır:** 
 
 A metodu çağrıldı
+
 B metodu çağrıldı
+
 Test metodu çağrıldı
 
 
