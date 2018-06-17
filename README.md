@@ -1,10 +1,12 @@
 # AttributeTanimlamak
 
-Öznitelikler (Attributes)
-Eyl 06, 2013
-Conditional Attribute (Koşullu Öznitelik)
+**Öznitelikler (Attributes)**
 
-Karar baklavaları olarak tanımlanan, program içerisinde kullanılan "if" bloklarına benzer. Yazılan programlarda tanımlanan metod ya da sınıflardan önce[Conditional(değişken)] (Koşullu) etiketi ile belirlenir. Değişken olarak kullanılan veri, program çalıştırılırken tanımlanırsa o bölüm ile ilgili olan kısım kod içerisine yerleştirilir. Diğer durumda bu bölüm, kod içerisinde bulunmaz. Böylece kod yazılmış olsa da bu blok ile ilgili kısım çalışma sırasında görünmeyecektir. Koşullu Özniteliği uygulamanın diğer bir yolu ise "#if ", "#endif" blokları kullanmaktır. Bununla ilgili örnek basit programlar incelenmek üzere aşağıda yer alacaktır.
+
+**Conditional Attribute (Koşullu Öznitelik)**
+
+*Karar baklavaları olarak tanımlanan, program içerisinde kullanılan "if" bloklarına benzer. Yazılan programlarda tanımlanan metod ya da sınıflardan önce[Conditional(değişken)] (Koşullu) etiketi ile belirlenir. Değişken olarak kullanılan veri, program çalıştırılırken tanımlanırsa o bölüm ile ilgili olan kısım kod içerisine yerleştirilir. Diğer durumda bu bölüm, kod içerisinde bulunmaz. Böylece kod yazılmış olsa da bu blok ile ilgili kısım çalışma sırasında görünmeyecektir. Koşullu Özniteliği uygulamanın diğer bir yolu ise "#if ", "#endif" blokları kullanmaktır. Bununla ilgili örnek basit programlar incelenmek üzere aşağıda yer alacaktır.*
+
 ```C#
 using System;
 using System.Collections.Generic;
@@ -47,17 +49,20 @@ namespace AttributeUygulamasi
 }
 ```
 
-**TestClass metodu için yazılan MethodTest metodunun koda eklenmesi TEST' in tanımlanmış olması koşuluna bağlıdır. Eğer TEST tanımlanır ise "deneme.MethodTest()" kodu çalışarak diğer koşullar atlanacaktır.
+**TestClass metodu için yazılan MethodTest metodunun koda eklenmesi TEST' in tanımlanmış olması koşuluna bağlıdır. Eğer TEST tanımlanır ise "deneme.MethodTest()" kodu çalışarak diğer koşullar atlanacaktır.**
 
-"TEST" tanımlanmadığında programın yarattığı çıktı aşağıdadır: 
-
-
-
-"TEST" tanımlandığında programın yarattığı çıktı aşağıdadır: ** 
+**"TEST" tanımlanmadığında programın yarattığı çıktı aşağıdadır:** 
+A metodu çağrıldı
+B metodu çağrıldı
 
 
+**"TEST" tanımlandığında programın yarattığı çıktı aşağıdadır: ** 
+A metodu çağrıldı
+B metodu çağrıldı
+Test metodu çağrıldı
 
-Obsolute Attribute (Saf Öznitelik)
+
+**Obsolute Attribute (Saf Öznitelik)**
 
 Yazılan programla içerisinde yer alan metodların zaman içerisinde geliştirilmesi ya da terk edilmesi mümkündür. Terk edilen modüllerin daha sonra başka programlar içerisinde kullanılma ihtimali ya da bu program içerisinde geçmişe dönülme ihtimali düşünülerek bu metodlar obsolute(saf) olarak tanımlanabilir. "Obsolute" olarak tanımlanan metodların kullanılması derlenme sırasında bir hata vermemesine karşın, çıktı ekranı incelendiğinde konuyla ilgili bir uyarı yer aldığı görülecektir. [Obsolute()] biçiminde tanımlanan özellik daha açıklayıcı olması açısından [Obsolute('Uyarı Mesajı')] biçiminde tanımlanmalıdır.
 ```C#
@@ -109,7 +114,8 @@ namespace SystemAttribute
 
  
 
-Kullanıcı Tanımlı Öznitelikler
+**Kullanıcı Tanımlı Öznitelikler**
+
 Kullanıcı tanımlı öznitelikler, kullanıcının C# elemanlarının metadatasına ek özellikler eklemesini sağlar. Örneğin bir iletişim(COM) bağlantısı gerektiren tüm sınıflar için bir iletişim özelliği yaratılıp eklenebilir. Bu sınıflar Attribute sınıfından türetilmelidir. Türetilen sınıfın etki alanı belirlenmelidir. Örneğin sınıfın etki alanına Method yazılırsa, yaratılan öznitelik yalnızca fonksiyonlar için kullanılabilir. Bütün uygulama elemanlarına etki edecek bir öznitelik yazılıyor ise etki alanıAll(Hepsi) olarak belirtilmelidir. Etki alanı tanımlandıktan sonra sınıfın özellikleri ve fonksiyonları tanımlanır. Aşağıdaki uygulamada "Validation Key"(Onaylama Anahtarı) ile tanımlanmış metodlardan yola çıkılarak, anahtarı 23 olanlarda durumu başarılı yapan bir özellik tanımlanmıştır.
 ```C#
 using System;
