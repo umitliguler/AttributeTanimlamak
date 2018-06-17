@@ -56,7 +56,8 @@ A metodu çağrıldı
 B metodu çağrıldı
 
 
-**"TEST" tanımlandığında programın yarattığı çıktı aşağıdadır: ** 
+**"TEST" tanımlandığında programın yarattığı çıktı aşağıdadır:** 
+
 A metodu çağrıldı
 B metodu çağrıldı
 Test metodu çağrıldı
@@ -64,7 +65,8 @@ Test metodu çağrıldı
 
 **Obsolute Attribute (Saf Öznitelik)**
 
-Yazılan programla içerisinde yer alan metodların zaman içerisinde geliştirilmesi ya da terk edilmesi mümkündür. Terk edilen modüllerin daha sonra başka programlar içerisinde kullanılma ihtimali ya da bu program içerisinde geçmişe dönülme ihtimali düşünülerek bu metodlar obsolute(saf) olarak tanımlanabilir. "Obsolute" olarak tanımlanan metodların kullanılması derlenme sırasında bir hata vermemesine karşın, çıktı ekranı incelendiğinde konuyla ilgili bir uyarı yer aldığı görülecektir. [Obsolute()] biçiminde tanımlanan özellik daha açıklayıcı olması açısından [Obsolute('Uyarı Mesajı')] biçiminde tanımlanmalıdır.
+*Yazılan programla içerisinde yer alan metodların zaman içerisinde geliştirilmesi ya da terk edilmesi mümkündür. Terk edilen modüllerin daha sonra başka programlar içerisinde kullanılma ihtimali ya da bu program içerisinde geçmişe dönülme ihtimali düşünülerek bu metodlar obsolute(saf) olarak tanımlanabilir. "Obsolute" olarak tanımlanan metodların kullanılması derlenme sırasında bir hata vermemesine karşın, çıktı ekranı incelendiğinde konuyla ilgili bir uyarı yer aldığı görülecektir. [Obsolute()] biçiminde tanımlanan özellik daha açıklayıcı olması açısından [Obsolute('Uyarı Mesajı')] biçiminde tanımlanmalıdır.*
+
 ```C#
 using System;
 namespace SystemAttribute
@@ -116,7 +118,8 @@ namespace SystemAttribute
 
 **Kullanıcı Tanımlı Öznitelikler**
 
-Kullanıcı tanımlı öznitelikler, kullanıcının C# elemanlarının metadatasına ek özellikler eklemesini sağlar. Örneğin bir iletişim(COM) bağlantısı gerektiren tüm sınıflar için bir iletişim özelliği yaratılıp eklenebilir. Bu sınıflar Attribute sınıfından türetilmelidir. Türetilen sınıfın etki alanı belirlenmelidir. Örneğin sınıfın etki alanına Method yazılırsa, yaratılan öznitelik yalnızca fonksiyonlar için kullanılabilir. Bütün uygulama elemanlarına etki edecek bir öznitelik yazılıyor ise etki alanıAll(Hepsi) olarak belirtilmelidir. Etki alanı tanımlandıktan sonra sınıfın özellikleri ve fonksiyonları tanımlanır. Aşağıdaki uygulamada "Validation Key"(Onaylama Anahtarı) ile tanımlanmış metodlardan yola çıkılarak, anahtarı 23 olanlarda durumu başarılı yapan bir özellik tanımlanmıştır.
+*Kullanıcı tanımlı öznitelikler, kullanıcının C# elemanlarının metadatasına ek özellikler eklemesini sağlar. Örneğin bir iletişim(COM) bağlantısı gerektiren tüm sınıflar için bir iletişim özelliği yaratılıp eklenebilir. Bu sınıflar Attribute sınıfından türetilmelidir. Türetilen sınıfın etki alanı belirlenmelidir. Örneğin sınıfın etki alanına Method yazılırsa, yaratılan öznitelik yalnızca fonksiyonlar için kullanılabilir. Bütün uygulama elemanlarına etki edecek bir öznitelik yazılıyor ise etki alanıAll(Hepsi) olarak belirtilmelidir. Etki alanı tanımlandıktan sonra sınıfın özellikleri ve fonksiyonları tanımlanır. Aşağıdaki uygulamada "Validation Key"(Onaylama Anahtarı) ile tanımlanmış metodlardan yola çıkılarak, anahtarı 23 olanlarda durumu başarılı yapan bir özellik tanımlanmıştır.*
+
 ```C#
 using System;
 using System.Reflection;
